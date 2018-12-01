@@ -7,7 +7,7 @@ function draw(){
   var n_circles = 30;
   var r = min(width, height);
   var t = frameCount * 0.00005;
-  background(0, 0, 0, frameCount % 100);
+  background(0, 0, 0, (frameCount/2) % 100);
   translate(width/2, height/2);
   noStroke();
   
